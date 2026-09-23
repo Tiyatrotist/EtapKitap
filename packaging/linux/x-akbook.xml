@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+  <mime-type type="application/x-akbook">
+    <comment>Etkileşimli Dijital Ders Kitabı Paketi</comment>
+    <comment xml:lang="en">Interactive Digital Textbook Package</comment>
+    <glob pattern="*.akbook"/>
+    <icon name="application-x-akbook"/>
+  </mime-type>
+</mime-info>

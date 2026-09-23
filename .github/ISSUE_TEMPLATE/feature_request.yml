@@ -1,0 +1,27 @@
+name: Feature Request / Activity Enhancement
+description: Suggest an idea, interactive activity type, or classroom workflow enhancement
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We welcome ideas that make EtapKitap better for teachers and students on smartboards!
+  - type: textarea
+    id: problem
+    attributes:
+      label: Classroom Problem / Motivation
+      description: Is your feature request related to a problem or specific teaching scenario?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution / Behavior
+      description: Describe what you would like to happen and how it would function on a touchscreen.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Any alternative solutions or workarounds you have considered.

@@ -1,0 +1,48 @@
+name: Bug Report
+description: Create a report to help us fix a bug in EtapKitap
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting an issue! Please describe the bug clearly and provide reproduction steps.
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: OS version, display resolution, touchscreen hardware, and EtapKitap version.
+      placeholder: e.g., Pardus 23 ETAP, 4K Touch Smartboard, EtapKitap 1.0.0
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: A clear and concise description of what the bug is.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: Step-by-step instructions to reproduce the problem.
+      placeholder: |
+        1. Open 'demo/matematik9.akbook'
+        2. Navigate to page 3
+        3. Activate Spotlight tool
+        4. See error...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What you expected to happen instead.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / Output
+      description: Console output or debug log lines (from ~/.local/share/EtapKitap/logs/ if available).
+      render: shell

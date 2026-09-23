@@ -1,0 +1,7 @@
+etapkitap (1.0.0-1) stable; urgency=medium
+
+  * Initial release for Pardus ETAP 23.
+  * Native C++20 / Qt6 interactive digital textbook and smartboard workstation.
+  * .akbook container format, normalized page coordinates, teacher tools.
+
+ -- Tiyatrotist <179411334+Tiyatrotist@users.noreply.github.com>  Wed, 23 Sep 2026 20:00:00 +0300

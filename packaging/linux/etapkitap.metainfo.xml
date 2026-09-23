@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>org.tiyatrotist.etapkitap</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>Apache-2.0</project_license>
+  <name>EtapKitap</name>
+  <summary>Pardus ETAP Etkileşimli Dijital Ders Kitabı ve Akıllı Tahta Çalışma Ortamı</summary>
+  <description>
+    <p>
+      EtapKitap, Pardus ETAP akıllı tahtalar ve Debian tabanlı sistemler için özel olarak geliştirilmiş,
+      yüksek performanslı, çevrimdışı (offline-first) ve açık kaynaklı bir etkileşimli ders kitabı ve sunum motorudur.
+    </p>
+    <p>
+      Standart PDF okumanın yanı sıra .akbook paketleriyle sayfa üzerinde zenginleştirilmiş videolar,
+      sesler, bilgi kartları ve etkileşimli etkinlikler (quiz, eşleştirme) sunar. Dahili kalem, fosforlu kalem,
+      lazer işaretçi, spotlight, perde ve çalışma alanı (scratchpad) araçlarıyla akıllı tahta deneyimini tamamlar.
+    </p>
+  </description>
+  <launchable type="desktop-id">etapkitap.desktop</launchable>
+  <provides>
+    <mediatype>application/pdf</mediatype>
+    <mediatype>application/x-akbook</mediatype>
+  </provides>
+  <developer_name>Tiyatrotist</developer_name>
+</component>

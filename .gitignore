@@ -1,0 +1,50 @@
+# Build directories
+build/
+build-*/
+bin/
+lib/
+out/
+.cache/
+
+# CMake artifacts
+CMakeUserPresets.json
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.user
+*.user.*
+*.suo
+*.userosv
+*.sln.docstates
+
+# Qt / QML generated
+*.qmlc
+*.jsc
+.qmake.stash
+.rcc/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary and log files
+*.log
+*.tmp
+*.bak
+scratch/
+
+# Local database and cache created during runtime
+library.db
+library.db-wal
+library.db-shm
+sessions/
+cache/
+thumbnails/
+recovery/
+logs/

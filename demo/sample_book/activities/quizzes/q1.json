@@ -1,0 +1,15 @@
+{
+  "type": "multiple_choice",
+  "id": "quiz-soru-1",
+  "title": "İkinci Dereceden Denklemler",
+  "question": "x² - 5x + 6 = 0 denkleminin çözüm kümesi aşağıdakilerden hangisidir?",
+  "options": [
+    "{1, 6}",
+    "{2, 3}",
+    "{-2, -3}",
+    "{-1, 6}"
+  ],
+  "correctIndex": 1,
+  "hint": "Çarpımları 6, toplamları -5 olan iki tam sayı bulunuz (-2 ve -3). (x-2)(x-3)=0 kökleri 2 ve 3'tür.",
+  "solution": "x² - 5x + 6 = (x - 2)(x - 3) = 0 olduğundan kökler x₁ = 2 ve x₂ = 3'tür. Çözüm kümesi {2, 3} olur. Doğru cevap B seçeneğidir."
+}

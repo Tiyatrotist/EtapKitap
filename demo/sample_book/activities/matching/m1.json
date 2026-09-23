@@ -1,0 +1,14 @@
+{
+  "type": "matching",
+  "id": "match-kavram-1",
+  "title": "Matematik Terimleri ve Sembolleri",
+  "question": "Aşağıdaki matematiksel kavramları doğru sembol veya formülleriyle eşleştiriniz:",
+  "hint": "Boş küme sembolü ∅, diskriminant sembolü Δ'dır.",
+  "solution": "Diskriminant -> Δ = b² - 4ac, Boş Küme -> ∅, Kesişim -> ∩, Doğal Sayılar -> ℕ",
+  "pairs": [
+    { "left": "Diskriminant", "right": "Δ = b² - 4ac" },
+    { "left": "Boş Küme", "right": "∅" },
+    { "left": "Kesişim", "right": "∩" },
+    { "left": "Doğal Sayılar", "right": "ℕ" }
+  ]
+}

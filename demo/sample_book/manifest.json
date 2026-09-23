@@ -1,0 +1,74 @@
+{
+  "formatVersion": 1,
+  "id": "matematik-9-demo",
+  "title": "Matematik 9 — Etkileşimli Ders Kitabı",
+  "language": "tr",
+  "document": "document.pdf",
+  "chapters": [
+    { "title": "Ünite 1: Önermeler ve Mantık", "page": 1 },
+    { "title": "Ünite 2: Kümeler ve Kartezyen Çarpım", "page": 3 },
+    { "title": "Ünite 3: Denklem ve Eşitsizlikler", "page": 5 }
+  ],
+  "pages": [
+    {
+      "page": 2,
+      "interactions": [
+        {
+          "id": "info-tanim-1",
+          "type": "info",
+          "title": "Önerme Tanımı",
+          "teaser": "Doğru ya da yanlış kesin bir hüküm bildiren ifadelere önerme denir.",
+          "rect": { "x": 0.82, "y": 0.22, "width": 0.08, "height": 0.08 }
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "interactions": [
+        {
+          "id": "audio-kume-1",
+          "type": "audio",
+          "title": "Kümeler Konu Anlatımı (Sesli)",
+          "resource": "assets/audio/aciklama.mp3",
+          "rect": { "x": 0.82, "y": 0.35, "width": 0.08, "height": 0.08 }
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "interactions": [
+        {
+          "id": "video-denklem-1",
+          "type": "video",
+          "title": "İkinci Dereceden Denklem Çözümü",
+          "resource": "assets/video/denklem_cozum.mp4",
+          "rect": { "x": 0.82, "y": 0.45, "width": 0.08, "height": 0.08 }
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "interactions": [
+        {
+          "id": "quiz-soru-1",
+          "type": "activity",
+          "title": "Örnek Soru 1: Diskriminant Testi",
+          "activityFile": "activities/quizzes/q1.json",
+          "rect": { "x": 0.82, "y": 0.58, "width": 0.08, "height": 0.08 }
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "interactions": [
+        {
+          "id": "match-kavram-1",
+          "type": "activity",
+          "title": "Kavram Eşleştirme Etkinliği",
+          "activityFile": "activities/matching/m1.json",
+          "rect": { "x": 0.82, "y": 0.70, "width": 0.08, "height": 0.08 }
+        }
+      ]
+    }
+  ]
+}

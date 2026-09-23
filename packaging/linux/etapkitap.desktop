@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=EtapKitap
+GenericName=Etkileşimli Ders Kitabı
+Comment=Pardus ETAP Etkileşimli Dijital Ders Kitabı ve Akıllı Tahta Çalışma Ortamı
+Exec=etapkitap %U
+Icon=etapkitap
+Terminal=false
+Type=Application
+Categories=Education;Office;
+MimeType=application/pdf;application/x-akbook;
+StartupNotify=true
+StartupWMClass=etapkitap
+Keywords=etap;pardus;akıllı tahta;kitap;pdf;ders;etkileşim;ogm;meb;

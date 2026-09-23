@@ -1,0 +1,24 @@
+Source: etapkitap
+Section: education
+Priority: optional
+Maintainer: Tiyatrotist <179411334+Tiyatrotist@users.noreply.github.com>
+Build-Depends: debhelper-compat (= 13),
+               cmake (>= 3.22),
+               ninja-build,
+               qt6-base-dev,
+               qt6-declarative-dev,
+               qt6-multimedia-dev,
+               qt6-tools-dev,
+               libqt6svg6-dev,
+               libqt6sql6-sqlite,
+               libsqlite3-dev
+Standards-Version: 4.6.2
+Homepage: https://github.com/Tiyatrotist/PDFKitap
+
+Package: etapkitap
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt6sql6-sqlite
+Description: Pardus ETAP Etkilesimli Dijital Ders Kitabi ve Akilli Tahta Calisma Ortami
+ EtapKitap, Pardus ETAP akilli tahtalar ve Linux sinif ortamlari icin
+ gelistirilmis yuksek performansli etkilesimli dijital ders kitabi motoru
+ ve ogretmen sunum araclaridir.
