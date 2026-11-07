@@ -118,6 +118,7 @@ void TestManifest::testAkbookPackageLoad() {
         QVERIFY(!package.isOpen());
     }
 #endif
+    ApplicationContext::instance().shutdown();
 }
 
 QTEST_MAIN(TestManifest)
