@@ -30,7 +30,9 @@ find_package(Qt6 COMPONENTS Pdf PdfQuick QUIET)
 find_package(Qt6 COMPONENTS Multimedia QUIET)
 
 qt_standard_project_setup()
-qt_policy(SET QTP0004 OLD)
+if(COMMAND qt_policy)
+    qt_policy(SET QTP0004 OLD)
+endif()
 
 option(ETAPKITAP_BUILD_TESTS "Build test suite" ON)
 
