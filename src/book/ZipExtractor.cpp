@@ -111,6 +111,7 @@ bool ZipExtractor::extract(const QString& zipFilePath, const QString& destinatio
 
         QByteArray fileNameBytes = file.read(header.fileNameLength);
         QString fileName = QString::fromUtf8(fileNameBytes);
+        fileName.replace('\\', '/');
         file.seek(file.pos() + header.extraFieldLength); // Skip extra field
 
         // Security check: validate relative path
@@ -195,6 +196,7 @@ QByteArray ZipExtractor::readFile(const QString& zipFilePath, const QString& rel
 
         QByteArray fileNameBytes = file.read(header.fileNameLength);
         QString fileName = QString::fromUtf8(fileNameBytes);
+        fileName.replace('\\', '/');
         file.seek(file.pos() + header.extraFieldLength);
 
         QByteArray compressedData = file.read(header.compressedSize);
