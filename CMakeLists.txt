@@ -28,6 +28,7 @@ find_package(Qt6 6.4 REQUIRED COMPONENTS
 
 find_package(Qt6 COMPONENTS Pdf PdfQuick QUIET)
 find_package(Qt6 COMPONENTS Multimedia QUIET)
+find_package(ZLIB REQUIRED)
 
 qt_standard_project_setup()
 if(COMMAND qt_policy)
