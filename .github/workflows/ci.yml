@@ -34,7 +34,7 @@ jobs:
             libqt6sql6-sqlite \
             libsqlite3-dev \
             zlib1g-dev \
-            libqt6pdf6-dev
+            qt6-pdf-dev
 
       - name: Configure CMake
         run: |
