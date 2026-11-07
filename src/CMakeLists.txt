@@ -142,6 +142,7 @@ target_link_libraries(etapkitap_core PUBLIC
     Qt6::Sql
     Qt6::Svg
     Qt6::Concurrent
+    ZLIB::ZLIB
 )
 
 if(TARGET Qt6::Pdf)
